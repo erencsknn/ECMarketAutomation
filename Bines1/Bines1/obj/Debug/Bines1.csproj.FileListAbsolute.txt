@@ -1,0 +1,15 @@
+C:\Users\erenc\source\repos\Bines1\Bines1\bin\Debug\Bines1.exe.config
+C:\Users\erenc\source\repos\Bines1\Bines1\bin\Debug\Bines1.exe
+C:\Users\erenc\source\repos\Bines1\Bines1\bin\Debug\Bines1.pdb
+C:\Users\erenc\source\repos\Bines1\Bines1\obj\Debug\Bines1.csproj.AssemblyReference.cache
+C:\Users\erenc\source\repos\Bines1\Bines1\obj\Debug\Bines1.Form1.resources
+C:\Users\erenc\source\repos\Bines1\Bines1\obj\Debug\Bines1.Properties.Resources.resources
+C:\Users\erenc\source\repos\Bines1\Bines1\obj\Debug\Bines1.csproj.GenerateResource.cache
+C:\Users\erenc\source\repos\Bines1\Bines1\obj\Debug\Bines1.csproj.CoreCompileInputs.cache
+C:\Users\erenc\source\repos\Bines1\Bines1\obj\Debug\Bines1.exe
+C:\Users\erenc\source\repos\Bines1\Bines1\obj\Debug\Bines1.pdb
+C:\Users\erenc\source\repos\Bines1\Bines1\obj\Debug\Bines1.HomePage.resources
+C:\Users\erenc\source\repos\Bines1\Bines1\obj\Debug\Bines1.ÜrünStok.resources
+C:\Users\erenc\source\repos\Bines1\Bines1\obj\Debug\Bines1.SatısEkran.resources
+C:\Users\erenc\source\repos\Bines1\Bines1\obj\Debug\Bines1.BorcTakip.resources
+C:\Users\erenc\source\repos\Bines1\Bines1\obj\Debug\Bines1.FirmaIrtibat.resources

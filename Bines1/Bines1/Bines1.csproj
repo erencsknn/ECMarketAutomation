@@ -1,0 +1,177 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{9154A737-AE19-49C3-AE7E-830EA671EF39}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <RootNamespace>Bines1</RootNamespace>
+    <AssemblyName>Bines1</AssemblyName>
+    <TargetFrameworkVersion>v4.7.2</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
+    <Deterministic>true</Deterministic>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Configuration" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Net.Http" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="BorcTakip.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="BorcTakip.Designer.cs">
+      <DependentUpon>BorcTakip.cs</DependentUpon>
+    </Compile>
+    <Compile Include="BorcTakipList.cs" />
+    <Compile Include="FirmaIrtibat.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FirmaIrtibat.Designer.cs">
+      <DependentUpon>FirmaIrtibat.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FirmaIrtibatList.cs" />
+    <Compile Include="LoginList.cs" />
+    <Compile Include="DataConnection.cs" />
+    <Compile Include="SatısEkran.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="SatısEkran.Designer.cs">
+      <DependentUpon>SatısEkran.cs</DependentUpon>
+    </Compile>
+    <Compile Include="UrunStokList.cs" />
+    <Compile Include="ÜrünStok.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ÜrünStok.Designer.cs">
+      <DependentUpon>ÜrünStok.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ThemeColor.cs" />
+    <Compile Include="LoginVeriGetir.cs" />
+    <Compile Include="HomePage.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="HomePage.Designer.cs">
+      <DependentUpon>HomePage.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Login.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include=".Designer.cs">
+      <DependentUpon>Login.cs</DependentUpon>
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <EmbeddedResource Include="BorcTakip.resx">
+      <DependentUpon>BorcTakip.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FirmaIrtibat.resx">
+      <DependentUpon>FirmaIrtibat.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="HomePage.resx">
+      <DependentUpon>HomePage.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Login.resx">
+      <DependentUpon>Login.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Resources.resx</DependentUpon>
+      <DesignTime>True</DesignTime>
+    </Compile>
+    <EmbeddedResource Include="SatısEkran.resx">
+      <DependentUpon>SatısEkran.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ÜrünStok.resx">
+      <DependentUpon>ÜrünStok.cs</DependentUpon>
+    </EmbeddedResource>
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="App.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\BinesLogoçakma.jfif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\binesçakma3.jfif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\bines üye simgesi.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\şifre sigesi.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\çıkıştuşu.jfif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\images.jfif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\satış logo.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\satış logo 2.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\satış logo3.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\satış logo4.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\ÇARPIII.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\LOGO EC.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\background.jfif" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+</Project>
